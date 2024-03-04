@@ -1,0 +1,89 @@
+.header_txt {
+  font-family: Inter;
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 38px;
+}
+.btn_todos {
+  display: flex;
+  gap: 20px;
+  margin-top: 45px;
+}
+.main_btn {
+  width: 87px;
+  height: 40px;
+  padding: 8px, 24px, 8px, 24px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 25px;
+  color: #081e34;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+}
+.main_btn:hover {
+  background-color: #081e346b;
+  color: #ffff;
+}
+.main_btn:focus {
+  background-color: #081e346b;
+  color: #ffff;
+}
+.all_btn {
+  display: flex;
+  justify-content: space-between;
+}
+.add_btn {
+  width: 45px;
+  height: 45px;
+  padding: 14px;
+  border-radius: 100px;
+  border: none;
+  margin-top: 45px;
+  color: white;
+  background-color: #081e34;
+  font-weight: 700;
+  font-size: 30px;
+  align-items: center;
+  display: flex;
+}
+.modal {
+  display: flex;
+  flex-direction: column;
+  width: 268px;
+  height: 234px;
+  background-color: #e4e6e7;
+  border-radius: 12px;
+  position: absolute;
+  top: 35px;
+  padding: 16px;
+  left: 72%;
+  gap: 8px;
+}
+.modal_input {
+  font-size: 16px;
+  font-weight: 500;
+  width: 236px;
+  height: 120px;
+  padding: 13px, 151px, 85px, 16px;
+  border-radius: 8px;
+  border: none;
+}
+.input_btn {
+  width: 76px;
+  height: 40px;
+  padding: 8px, 24px, 8px, 24px;
+  gap: 8px;
+  background: #081e34;
+  color: #ffff;
+  border-radius: 20px;
+}
+.btn_txt {
+  margin-top: 50px;
+  position: absolute;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-top: 60px;
+}
